@@ -53,15 +53,15 @@ input::placeholder {
 }
 
 input:disabled {
-    background-color: white;
-    color: red;
+    background-color: red;
+    color: white;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 input.correct:disabled {
-    background-color: white;
-    color: green;
+    background-color: green;
+    color: white;
     font-weight: 600;
     text-transform: uppercase;
 }
