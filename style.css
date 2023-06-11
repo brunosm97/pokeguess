@@ -36,9 +36,10 @@ body {
 }
 
 #pokemon {
-    width: 236px;
+    max-width: 240px;
+    min-width: 240px;
     height: 30px;
-    margin-left: calc(50% - 118px);
+    margin-left: calc(50% - 120px);
     margin-top: 10px;
     border:  3px solid #FF00B8;
     border-radius: 15px;
@@ -66,7 +67,8 @@ input.correct:disabled {
 }
 
 #guess-button {
-    width: 160px;
+    max-width: 160px;
+    min-width: 160px;
     height: 40px;
     background-color: #FF00B8;
     color: white;
